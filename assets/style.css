@@ -1,0 +1,84 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+body{
+    color: white;
+    font-family: OpenSans;
+    background-size: cover;
+    margin: 0px;
+    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+        to right, 
+        #EBBA4A77 0px, /* Starting point */
+        #EBBA4A77 35%, /* End black point */
+        #E8A03E77 35%, /* Starting red point */
+        #E8A03E77 45%, /* End red point */
+        #5AC6FA77 45%, /* Starting black point */
+        #5AC6FA77 55%, /* End black point */
+        #459CE377 55%, /* End black point */
+        #459CE377 65%, /* End black point */
+        #E3634D77 65%, /* End black point */
+        #E3634D77 100% /* End black point */
+    ),  url(background.jpg);
+}
+.container{
+    margin: auto;
+    width: 50%;
+    padding: 20px 0px;
+}
+.container-fluid{
+    width:100%;
+}
+.background-grey{
+    background: grey;
+}
+.icon-triangle{
+    display: inline-block;
+    width: 30.3px;
+    height: 30.45px;
+    overflow: hidden;
+    position:relative;
+    top: 5px;
+}
+.icon-triangle, .icon-browsers{
+    filter: brightness(0) invert(1);
+}
+.icon-browsers{
+    width: 50%;
+}
+.content-banner{
+    line-height: 1.5;
+}
+.btn-update{
+    font-weight: bold;
+    background:#9a9a9a;
+    padding: 15px 10px;
+}
+.btn-update, .btn-download{
+    color: white;
+    border: 1px solid white;
+}
+.btn-update:hover, .btn-download{
+    cursor: pointer;
+}
+.btn-download{
+    background:#9a9a9a77;
+    padding: 10px 15px;
+}
+.section-banner, .section-browsers{
+    position: relative;
+    top: 150px;
+}
+.divide-5{
+    width: 19.5%;
+    line-height: 1.5;
+    display: inline-block;
+}
+.center{
+    text-align: center;
+}
+.browsers-version{
+    margin-bottom:20px;
+}
